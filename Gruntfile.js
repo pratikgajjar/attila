@@ -109,7 +109,9 @@ module.exports = function(grunt) {
             '!.git',
             '!.gitignore',
             '!Gruntfile.js',
-            '!package-lock.json'
+            '!package-lock.json',
+            '!bower_components',
+            '!bower_components/**'
           ],
           dest: '.'
         }]

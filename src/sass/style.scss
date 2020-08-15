@@ -14,8 +14,8 @@ $inner: calc(64rem + 8vw);
    Basics
    ========================================================================== */
 :root {
-	--font-primary: 'Playfair Display', serif;
-	--font-secondary: 'Open Sans', sans-serif;
+	--font-primary: 'Source Sans Pro', sans-serif;
+	--font-secondary: 'Source Sans Pro', sans-serif;;
 }
 
 html {
@@ -29,7 +29,7 @@ html.menu-active {
 }
 
 body {
-	font-family: var(--font-secondary);
+	font-family: var(--font-primary);
 	font-size: 1em;
 	line-height: 1.5em;
 	font-weight: 400;
@@ -1303,6 +1303,12 @@ textarea {
 	@media only screen and (max-width: $breakpoint-medium) {
 		transform: translate3d(0,-100%,0);
 	}
+	background: 
+    linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.5)
+    ),
 }
 
 .menu-active .nav-header {
@@ -1490,7 +1496,7 @@ textarea {
 
 		a {
 			color: $color-neutral-25;
-			font-weight: 500;
+			font-weight: 900;
 			@media (prefers-color-scheme: dark) {
 				color: $color-neutral-90;
 			}
@@ -1782,7 +1788,7 @@ textarea {
 	margin-bottom: calc(4rem + 2vw);
 	background: #000;
 	overflow: hidden;
-	text-shadow: 0 1px 2px rgba(0,0,0,0.1);
+	text-shadow: 1px 1px 1px black;
 }
 
 .post-cover {
