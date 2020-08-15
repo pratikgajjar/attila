@@ -14,8 +14,8 @@ $inner: calc(64rem + 8vw);
    Basics
    ========================================================================== */
 :root {
-	--font-primary: 'Fira Sans', sans-serif;
-	--font-secondary: 'Cardo', serif;
+	--font-primary: 'Playfair Display', serif;
+	--font-secondary: 'Open Sans', sans-serif;
 }
 
 html {
@@ -29,7 +29,7 @@ html.menu-active {
 }
 
 body {
-	font-family: var(--font-primary);
+	font-family: var(--font-secondary);
 	font-size: 1em;
 	line-height: 1.5em;
 	font-weight: 400;
