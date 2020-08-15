@@ -76,3 +76,16 @@
   url('../font/fira-sans-v8-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
   url('../font/fira-sans-v8-latin-700.svg#FiraSans') format('svg'); /* Legacy iOS */
 }
+
+@import "open-sans/variables";
+@import "open-sans/mixins";
+@import "open-sans/Light";
+@import "open-sans/LightItalic";
+@import "open-sans/Regular";
+@import "open-sans/Italic";
+@import "open-sans/SemiBold";
+@import "open-sans/SemiBoldItalic";
+@import "open-sans/Bold";
+@import "open-sans/BoldItalic";
+@import "open-sans/ExtraBold";
+@import "open-sans/ExtraBoldItalic";
