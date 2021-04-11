@@ -1,11 +1,11 @@
 {
   "name": "attila",
   "description": "Ghost Theme",
-  "demo": "https://attila.zutrinken.com",
-  "version": "2.2.0",
+  "demo": "https://attila.peteramende.de",
+  "version": "3.1.0",
   "engines": {
-    "ghost": ">=3.0.0",
-    "ghost-api": "v3"
+    "ghost": ">=4.0.0",
+    "ghost-api": "v4"
   },
   "license": "MIT",
   "screenshots": {
@@ -14,7 +14,7 @@
   },
   "author": {
     "name": "Peter Amende",
-    "email": "xoxo@peteramende.de",
+    "email": "hey@peteramende.de",
     "url": "https://peteramende.de"
   },
   "gpm": {
@@ -32,9 +32,6 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/zutrinken/attila.git"
-  },
-  "dependencies": {
-    "ghosthunter": "github:jamalneufeld/ghostHunter"
   },
   "devDependencies": {
     "autoprefixer": "^9.1.5",
