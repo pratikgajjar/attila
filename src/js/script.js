@@ -311,8 +311,10 @@ jQuery(function($) {
 
       if (!html.hasClass('theme-dark') && !html.hasClass('theme-light')) {
         dark();
+        if(window.REMARK42 !== undefined) window.REMARK42.changeTheme('dark');
       } else if (html.hasClass('theme-dark')) {
         light();
+        if(window.REMARK42 !== undefined) window.REMARK42.changeTheme('light');
       } else {
         system();
       }
