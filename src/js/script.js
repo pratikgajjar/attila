@@ -317,6 +317,8 @@ jQuery(function($) {
         if(window.REMARK42 !== undefined) window.REMARK42.changeTheme('light');
       } else {
         system();
+        var cur_mode =  window.matchMedia("(prefers-color-scheme: dark)").matches ? 'dark' : 'light';
+        if(window.REMARK42 !== undefined) window.REMARK42.changeTheme(cur_mode);
       }
     });
   }
